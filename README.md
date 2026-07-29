@@ -38,25 +38,25 @@ Visual Studio Code
 Windows 10/11
 
 # Project Workflow
-User Uploads Image
+- User Uploads Image
         │
         ▼
-Image Preprocessing
+- Image Preprocessing
         │
         ▼
-Nationality Prediction
+- Nationality Prediction
         │
         ▼
-Age Prediction
+- Age Prediction
         │
         ▼
-Emotion Prediction
+- Emotion Prediction
         │
         ▼
-Dress Color Detection
+- Dress Color Detection
         │
         ▼
-Display Output Based on Nationality
+- Display Output Based on Nationality
 
 # Datasets Used
 1. FairFace Dataset
@@ -78,6 +78,7 @@ Indian
 United States
 African
 Others
+
 2. RAF-DB Dataset
 
 Used for:

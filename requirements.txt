@@ -1,0 +1,13 @@
+tensorflow
+keras
+streamlit
+opencv-python
+numpy
+pandas
+matplotlib
+pillow
+scikit-learn
+ultralytics
+deepface
+tf-keras
+

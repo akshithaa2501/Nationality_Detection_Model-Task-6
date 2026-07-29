@@ -134,3 +134,88 @@ Output: Seven emotions
      - utils.py
 
 - test_images/
+
+# Install Required Libraries
+
+- Install all dependencies using:
+
+pip install -r requirements.txt
+
+Or 
+- install manually:
+
+pip install tensorflow
+pip install keras
+pip install streamlit
+pip install opencv-python
+pip install numpy
+pip install pandas
+pip install pillow
+pip install matplotlib
+pip install scikit-learn
+pip install ultralytics
+
+# Training Process
+- Age Model
+1. Load FairFace dataset.
+2. Preprocess images.
+3. Resize images to 224 × 224.
+4. Normalize pixel values.
+5. Train MobileNetV2 model.
+6. Save model as:
+    - age_model.keras
+
+- Emotion Model
+1. Load RAF-DB dataset.
+2. Apply image augmentation.
+3. Train MobileNetV2.
+4. Save model as:
+    - emotion_model.keras
+
+- Nationality Model
+1. Load FairFace dataset.
+2. Convert race labels into nationality classes.
+3. Resize images.
+4. Train MobileNetV2.
+5. Save model as:
+    - nationality_model.keras
+
+- Dress Color Detection
+
+The dress color detection module:
+
+Reads the uploaded image.
+Detects the clothing region.
+Uses OpenCV and color analysis to determine the dominant dress color.
+
+Supported colors include:
+
+Red
+Blue
+Green
+Yellow
+Orange
+Purple
+Brown
+Black
+White
+Gray
+
+
+# Running the Project
+
+- Navigate to the project folder:
+
+     cd src
+
+- Run the Streamlit application:
+
+     streamlit run gui.py
+
+The application will automatically open in your default web browser.
+
+
+
+# Conclusion
+
+The Nationality Detection Model demonstrates how Deep Learning can be applied to facial analysis tasks. By combining multiple prediction modules with an interactive Streamlit interface, the project provides a practical solution for detecting nationality, age, emotion, and dress color from facial images while satisfying the internship project requirements.

@@ -113,24 +113,24 @@ Output: Seven emotions
 # Folder Structure
 - Nationality_Detection_Model
 - dataset/
-      - FairFace/
-             - fairface_label_train.csv
-             - fairface_label_val.cs
-             - Images
-      - RAF-DB/
-             - train/
-             - test/
+     - FairFace/
+         - fairface_label_train.csv
+         - fairface_label_val.cs
+         - Images
+     - RAF-DB/
+         - train/
+         - test/
 - models/
      - nationality_model.keras
      - age_model.keras
      - emotion_model.keras
 
 - src/
-      - gui.py
-      - predict_nationality.py
-      - predict_age.py
-      - predict_emotion.py
-      - dress_color.py
-      - utils.py
+     - gui.py
+     - predict_nationality.py
+     - predict_age.py
+     - predict_emotion.py
+     - dress_color.py
+     - utils.py
 
 - test_images/

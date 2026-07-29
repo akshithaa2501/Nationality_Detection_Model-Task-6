@@ -114,12 +114,17 @@ Output: Seven emotions
 - Nationality_Detection_Model
 - dataset/
      - FairFace/
+         - tarin
+         - val 
          - fairface_label_train.csv
          - fairface_label_val.cs
          - Images
      - RAF-DB/
          - train/
          - test/
+         - train_labels.csv
+         - test_labels.csv
+           
 - models/
      - nationality_model.keras
      - age_model.keras
@@ -130,8 +135,11 @@ Output: Seven emotions
      - predict_nationality.py
      - predict_age.py
      - predict_emotion.py
+     - predict_all.py
      - dress_color.py
-     - utils.py
+     - train_age.py
+     - train_emotion.py
+     - train_nationality.py
 
 - test_images/
 

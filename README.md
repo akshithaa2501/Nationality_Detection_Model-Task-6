@@ -227,3 +227,6 @@ The application will automatically open in your default web browser.
 # Conclusion
 
 The Nationality Detection Model demonstrates how Deep Learning can be applied to facial analysis tasks. By combining multiple prediction modules with an interactive Streamlit interface, the project provides a practical solution for detecting nationality, age, emotion, and dress color from facial images while satisfying the internship project requirements.
+
+# Dataset Link
+https://drive.google.com/drive/folders/1nEUU1gG3nVl4rjUKf_uNp0CG2V6eDwbf?usp=drive_link

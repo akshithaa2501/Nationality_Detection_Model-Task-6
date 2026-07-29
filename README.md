@@ -39,23 +39,17 @@ Windows 10/11
 
 # Project Workflow
 - User Uploads Image
-        │
-        ▼
+
 - Image Preprocessing
-        │
-        ▼
+        
 - Nationality Prediction
-        │
-        ▼
+        
 - Age Prediction
-        │
-        ▼
+        
 - Emotion Prediction
-        │
-        ▼
+        
 - Dress Color Detection
-        │
-        ▼
+        
 - Display Output Based on Nationality
 
 # Datasets Used
@@ -115,3 +109,28 @@ Output: Age Groups
 - Base Model: MobileNetV2
 - Dataset: RAF-DB
 Output: Seven emotions
+
+# Folder Structure
+- Nationality_Detection_Model
+- dataset/
+      - FairFace/
+             - fairface_label_train.csv
+             - fairface_label_val.cs
+             - Images
+      - RAF-DB/
+             - train/
+             - test/
+- models/
+     - nationality_model.keras
+     - age_model.keras
+     - emotion_model.keras
+
+- src/
+      - gui.py
+      - predict_nationality.py
+      - predict_age.py
+      - predict_emotion.py
+      - dress_color.py
+      - utils.py
+
+- test_images/
